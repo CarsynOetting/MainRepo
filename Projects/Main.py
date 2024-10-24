@@ -1,5 +1,7 @@
 # Tracking for that one project in Coursera
 
+# I have no idea what this was for - I'm guessing the capstone. May delete later - 10/24/24
+
 
 #--IMPORT SECTION--
 import urllib.request, urllib.parse, urllib.error

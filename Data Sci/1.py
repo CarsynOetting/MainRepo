@@ -1,3 +1,8 @@
-print('hello'.upper())
+import pandas
+import numpy as np
 
-# New comment for stuff etc
+a=np.array([0,1]) 
+
+b=np.array([1,0]) 
+
+np.dot(a,b) 
