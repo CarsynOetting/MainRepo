@@ -1,8 +1,6 @@
-import pandas
 import numpy as np
 
-a=np.array([0,1]) 
+a=np.array([1,1,1,1,1]) 
 
-b=np.array([1,0]) 
-
-np.dot(a,b) 
+c = a+10
+print(c)
