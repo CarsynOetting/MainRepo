@@ -1,1 +1,2 @@
-key = 'See API ID file'
+# Youtube API scraping key
+key = ''
