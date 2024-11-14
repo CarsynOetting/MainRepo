@@ -1,10 +1,10 @@
-.backgrounds{
-    background-color: lightgray;
+.backgrounds {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 62%, rgba(1,200,247,1) 94%, rgba(0,212,255,1) 100%);
 }
 
 .titler {
     color: black;
-    border-bottom: 1px;
     border-color: black;
     text-align: center;
 }
@@ -20,13 +20,13 @@
 }
 
 .header{
-    background-color: lightgray;
     width: 80%;
     margin: auto;
+    border-bottom: 2px, black;
 }
 
 .footer{
-    background-color: lightgray;
+    border: 2px, black;
     width: 80%;
     margin: auto;
     text-align: center;
