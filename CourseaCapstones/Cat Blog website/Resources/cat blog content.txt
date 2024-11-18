@@ -1,0 +1,97 @@
+Oh, so you want to know why kittens make paw-some pets, huh? Well, let me tell you, meow, they're just the fluffiest bundles of joy you could ever have in your life. They'll bring purrs of happiness into your home and fill your heart with so much love, meow.
+
+Kittens are like little balls of energy and mischief, always ready to play and explore. They'll keep you entertained for hours with their acrobatics and cute antics, meow. Plus, they're so tiny and adorable that you can't help but want to cuddle them all the time.
+
+Not to mention, kittens are great at keeping you company. They'll follow you around the house, curl up on your lap, and even sleep by your side at night, meow. They're like little furry therapists, always there to listen and comfort you when you're feeling down.
+
+And let's not forget about the health benefits of having a kitten as a pet. Studies have shown that petting a cat can help reduce stress and anxiety, lower blood pressure, and even improve your mood, meow. So having a kitten around can actually be good for your overall well-being.
+
+
+
+
+Oh, you're curious about the whole dry food versus wet food debate, huh? Well, let me break it down for you, meow. Dry food is like those crunchy snacks you love, while wet food is the juicy, saucy goodness that makes your taste buds sing.
+
+Now, when it comes to dry food, it's super convenient for busy humans like yourself. You can leave it out all day for your cat to nibble on whenever they please. Plus, it helps keep their teeth clean and healthy, meow. But some say it's not as hydrating as wet food, which can be a concern for cats who don't drink enough water.
+
+On the other paw, wet food is like a gourmet meal for your feline friend. It's packed with moisture, which can help keep your cat hydrated, meow. Plus, it's often more palatable for picky eaters and can be beneficial for cats with certain health issues like kidney disease. But it can be a bit messier and more expensive than dry food.
+
+As for what cats prefer, well, every cat is different, meow. Some may be die-hard fans of dry food, while others may turn their noses up at anything that's not wet and delicious. It really depends on your cat's individual tastes and needs.
+
+At the end of the day, the most important thing is to provide your cat with a balanced diet that meets their nutritional requirements, meow. Whether you choose dry food, wet food, or a combination of both, make sure to consult with your veterinarian to ensure you're making the best choice for your furry friend.
+
+
+
+Well, well, well, look who's interested in keeping their kitty entertained, meow. Let me tell you all about the best cat toys that will have your feline friend purring with delight. Cats are natural hunters, so toys that mimic prey are always a hit.
+
+First up, interactive toys like wand teasers and laser pointers are a favorite among cats. They get to unleash their inner predator and engage in some paws-on playtime with their human, meow. These toys allow for bonding and exercise, keeping your kitty sharp and active.
+
+Secondly, anything that moves or makes noise will grab a cat's attention. Think of toys like balls with bells inside, crinkly toys, or even robotic mice. Cats love the thrill of the chase and the satisfaction of catching their "prey," meow. These toys stimulate their senses and keep them engaged for hours.
+
+And let's not forget about good old-fashioned catnip toys. Cats go crazy for catnip, and toys filled with this magical herb can provide hours of entertainment and relaxation for your furry friend, meow. Just make sure not to overdo it with the catnip, as some cats can become a bit too "relaxed" if they have too much.
+
+When it comes to playing with your cat, remember to let them take the lead, meow. Allow them to stalk, pounce, and bat at the toys at their own pace. Be patient and let them "catch" their prey every once in a while to keep them engaged and satisfied.
+
+So, stock up on some interactive toys, noisy toys, and catnip toys, and get ready to have a blast playing with your feline friend. Trust me, they'll appreciate the effort, even if they pretend not to, meow.
+
+
+
+Oh, darling, let's talk about the importance of keeping that litterbox squeaky clean for your precious feline, meow. A clean litterbox isn't just a nicety – it's a necessity for your cat's health and mental well-being.
+
+First and foremost, cats are clean creatures by nature, meow. A dirty litterbox can lead to stress and anxiety for your kitty, as they prefer a pristine bathroom environment for their business. A clean litterbox helps maintain your cat's mental wellness and reduces the risk of litterbox aversion issues.
+
+On the health front, a dirty litterbox can harbor bacteria and parasites that can make your cat sick, meow. Urinary tract infections, respiratory issues, and gastrointestinal problems can all be linked to poor litterbox hygiene. Keeping the litterbox clean and scooped regularly can help prevent these health issues from arising.
+
+Additionally, cats have a keen sense of smell, meow. A dirty litterbox can be off-putting to your kitty's sensitive nose, leading them to avoid using it altogether. This can result in inappropriate elimination behaviors, such as urinating outside the litterbox, which can be frustrating for both you and your cat.
+
+So, how can you keep your cat's litterbox in tip-top shape? Well, scoop it at least once a day to remove waste and clumps, meow. Consider using unscented litter, as strong fragrances can be overwhelming for cats. And don't forget to thoroughly clean and change the litter regularly to ensure a fresh and inviting bathroom environment for your furry friend.
+
+By prioritizing a clean litterbox for your cat, you're not only promoting their physical health but also their mental well-being, meow. So, roll up your sleeves, grab that scooper, and show your kitty some love by keeping their bathroom spotless. They'll thank you with purrs and head butts, even if they pretend not to care, meow.
+
+
+
+
+/* CSS HEX */
+--persian-rose: #ff23b1ff;
+--dark-slate-gray: #35524aff;
+--ivory: #fffce8ff;
+--black-bean: #310c13ff;
+--vista-blue: #9eade5ff;
+
+/* CSS HSL */
+--persian-rose: hsla(321, 100%, 57%, 1);
+--dark-slate-gray: hsla(163, 21%, 26%, 1);
+--ivory: hsla(52, 100%, 95%, 1);
+--black-bean: hsla(349, 61%, 12%, 1);
+--vista-blue: hsla(227, 58%, 76%, 1);
+
+/* SCSS HEX */
+$persian-rose: #ff23b1ff;
+$dark-slate-gray: #35524aff;
+$ivory: #fffce8ff;
+$black-bean: #310c13ff;
+$vista-blue: #9eade5ff;
+
+/* SCSS HSL */
+$persian-rose: hsla(321, 100%, 57%, 1);
+$dark-slate-gray: hsla(163, 21%, 26%, 1);
+$ivory: hsla(52, 100%, 95%, 1);
+$black-bean: hsla(349, 61%, 12%, 1);
+$vista-blue: hsla(227, 58%, 76%, 1);
+
+/* SCSS RGB */
+$persian-rose: rgba(255, 35, 177, 1);
+$dark-slate-gray: rgba(53, 82, 74, 1);
+$ivory: rgba(255, 252, 232, 1);
+$black-bean: rgba(49, 12, 19, 1);
+$vista-blue: rgba(158, 173, 229, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-right: linear-gradient(90deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-bottom: linear-gradient(180deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-left: linear-gradient(270deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-top-right: linear-gradient(45deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-bottom-right: linear-gradient(135deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-top-left: linear-gradient(225deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-bottom-left: linear-gradient(315deg, #ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);
+$gradient-radial: radial-gradient(#ff23b1ff, #35524aff, #fffce8ff, #310c13ff, #9eade5ff);

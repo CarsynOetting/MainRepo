@@ -1,0 +1,99 @@
+body{
+    font-family: "Montserrat", "sans-serif";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #310c13;
+    background-image: url(images/background-pattern.jpg);
+}
+
+main {
+    max-width: 760px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px #310c13;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "Kirang Haerang", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1{
+    color: #ff23b1;
+    color: oklch(67.06% 0.308 348.35);
+    font-size: 96px;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(49, 12, 49, 1);
+}
+
+header h1::before{
+    content: url(images/circle.png);
+    margin-right: 10px;
+}
+
+header h1::after{
+    content: url(images/circle.png);
+    margin-left: 10px;
+}
+
+article p {
+   margin: 0 20px 1em 20px;
+   line-height: 1.5em;
+   font-size: 20px;
+}
+
+article p.date{
+    font-weight: 700;
+    font-style: italic;
+    margin: 20px;
+}
+
+article a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #35524a;
+    text-transform: uppercase;
+}
+
+article h2 {
+    background: rgb(49,12,19);
+    background: linear-gradient(180deg, rgba(49,12,19,1) 0%, rgba(100,6,24,1) 50%, rgba(49,12,19,1) 100%);
+    padding: 20px;
+    color: #fffce8;
+    font-size: 32px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+article footer{
+    background-color: #ff23b1;
+    background-color: oklch(67.06% 0.308 348.35);
+    border-radius: 10px;
+    min-height: 26px;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    margin-bottom: 120px;
+}
