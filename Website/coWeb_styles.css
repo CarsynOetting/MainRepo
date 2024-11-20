@@ -1,0 +1,41 @@
+.body{
+    font-optical-sizing: auto;
+    font-weight: 300;
+    background-image: url(imagefiles/more-leaves.png);
+}
+
+.titler {
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px #310c13;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px, black;
+}
+
+.footer {
+    border: 2px, black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu {
+    margin: auto;
+    text-align: center;
+}

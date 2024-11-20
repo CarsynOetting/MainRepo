@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href="styles.css" rel="stylesheet">
+
+    <!--  Normalize CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="coWeb_styles.css" rel="stylesheet">
 </head>
-<body class="backgrounds">
-    <div class="header">
-        <h1 class="titler">Carsyn's First Webpage</h1>
-    </div>
-    <div class="menu"><strong>Home</strong> | <a href="Topics.html">Blog</a> | <a href="aboutme.html">About Me</a> | <a href="projects.html">Portfolio</a>
-    </div>
-    <div class="main_panel">
+<body class="body">
+    <header class="titler">
+        <h1>Carsyn's First Webpage</h1>
+        <div class="menu"><strong>Home</strong> | <a href="Topics.html">Blog</a> | <a href="aboutme.html">About Me</a> | <a href="projects.html">Portfolio</a></div>
+    </header>
+    <main class="main">
         <p>
             <h2>About me!</h2>
             You can find some personal info about me <a href="aboutme.html">here!</a>
@@ -23,10 +26,10 @@
             <h3>Images</h3>
             <img src="imagefiles/Landscape_1.jpg" alt="Landscape_1" width="400" height="200">
         </p>
-    </div>
-    <div class="footer">
-        <h4 class="titler">Site Navigation</h4>
+    </main>
+    <footer class="titler">
+        <h4>Site Navigation</h4>
         <a href="#">Back to top</a>
-    </div>
+    </footer>
 </body>
 </html>
