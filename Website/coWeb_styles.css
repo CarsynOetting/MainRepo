@@ -29,10 +29,11 @@
 }
 
 .footer {
-    border: 2px, black;
-    width: 80%;
-    margin: auto;
+    background-color: antiquewhite;
+    color: black;
     text-align: center;
+    padding: 5px;
+    bottom: 0;
 }
 
 .menu {
