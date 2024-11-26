@@ -1,6 +1,8 @@
 .body{
+    font-family: "Parkinsans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
+    font-style: normal;
     background-image: url(imagefiles/more-leaves.png);
 }
 
@@ -39,4 +41,8 @@
 .menu {
     margin: auto;
     text-align: center;
+}
+
+.emphasis{
+    font-weight: bold;
 }

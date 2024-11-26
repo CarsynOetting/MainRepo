@@ -97,3 +97,7 @@ article footer{
 article {
     margin-bottom: 120px;
 }
+
+emphasis{
+    font-style: bold;
+}
