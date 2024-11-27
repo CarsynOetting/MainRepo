@@ -1,0 +1,125 @@
+/* Example 1 CSS Rules */
+
+#ex1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin: 50px;
+}
+
+#ex1:hover {
+    transform: rotate(2475deg);
+    background-color: blue;
+    transition: all 5s ease-out;
+}
+
+/* Example 2 CSS Rules */
+
+#ex2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+}
+
+#ex2container:hover #ex2{
+    /* Add transform declaration */
+    transform: scale(2) translate(200px);
+    background-color: blue;
+    /* Add transition declaration */
+    transition: all 2s ease-out;
+}
+
+/* Example 3 CSS Rules */
+
+#ex3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#ex3:hover {
+    background-color: blue;
+    /* Add transform declaration */
+    transform: matrix(1.11,0.46,0.4,0.99,-0,-0);
+    /* Add transition declaration */
+    transition: all 2s ease-out;
+}
+
+/* Example 4 CSS Rules */
+
+#ex4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+    /* Add transform origin declaration */
+    transform-origin: left top;
+}
+
+#ex4:hover {
+    /* Add rotate transform declaration */
+    transform: rotate(2160deg);
+    background-color: blue;
+    /* Add transition declaration */
+    transition: all 5s ease-out;    
+}
+
+/* Example 5 CSS Rules */
+#ex5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: thistle;
+    /* Perspective distance declaration */
+    perspective: 1000px;
+    /* Perspective origin declaration */
+    perspective-origin: 50% 50%;
+}
+
+#ex5 div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform rotation declaration */
+    transform: rotateY(45deg);
+}
+
+#ex5 div:hover {
+    background-color: blue;
+    /* transform rotate declaration */
+    transform: rotateY(2205deg);
+    /* Transition declaration */
+    transition: all 5s ease-out;  
+}
+
+/* Example 6 CSS Rules */
+#ex6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: thistle;
+}
+
+#ex6 div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* Transform perspective declaration */
+    transform: perspective(1000px) rotateY(45deg);
+}
+
+#ex6 div:hover {
+    background-color: blue;
+    /* Transform perspective & rotate declaration */
+    transform: perspective(1000px) rotateY(2205deg);
+    /* Transition declaration */
+    transition: all 5s ease-out; 
+}
