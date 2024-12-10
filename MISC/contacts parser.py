@@ -6,7 +6,7 @@ phone_num = ""
 for line in file:
     if not line.strip():  # Check if the line is empty
         continue  # Skip to the next iteration
-    if line[0] == " ":
+    if line[0] == " ":  # Check if the line starts with a space
         continue
     line_break = line.split(':')
     line_1 = line_break[0]
