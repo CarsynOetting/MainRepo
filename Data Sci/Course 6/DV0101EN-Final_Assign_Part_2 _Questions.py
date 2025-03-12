@@ -94,7 +94,9 @@ def update_output_container(report_type, input_year):
         R_chart1 = dcc.Graph(
             figure=px.scatter(yearly_rec, 
                 x='Year',
-                y='Automobile_Sales'
+                y='Automobile_Sales',
+                labels={"Automobile_Sales":"Number of cars sold"},
+                title="Automobile sales during recession periods"
                 ))
 
 #Plot 2 Calculate the average number of vehicles sold by vehicle type       
@@ -105,7 +107,9 @@ def update_output_container(report_type, input_year):
         R_chart2  = dcc.Graph(
             figure=px.bar(average_sales,
             x='Vehicle_Type',
-            y='Automobile_Sales'
+            y='Automobile_Sales',
+            labels={"Automobile_Sales":"Number of cars sold", "Vehicle_Type":"Vehicle Type"},
+            title="Types of cars sold during recession periods"
             ))
         
 # Plot 3 Pie chart for total expenditure share by vehicle type during recessions
@@ -115,6 +119,7 @@ def update_output_container(report_type, input_year):
         R_chart3 = dcc.Graph(figure=px.pie(exp_rec,
             values='Advertising_Expenditure',
             names='Vehicle_Type',
+            labels={"Vehicle_Type":"Vehicle Type"},
             title="Advertising Expenditure per Vehicle type during recessions"))
 
 # Plot 4 bar chart for the effect of unemployment rate on vehicle type and sales
@@ -124,7 +129,8 @@ def update_output_container(report_type, input_year):
         R_chart4 = dcc.Graph(figure=px.bar(unemp_data,
         x='Automobile_Sales',
         y='unemployment_rate',
-        labels={'unemployment_rate': 'Unemployment Rate', 'Automobile_Sales': 'Average Automobile Sales'}
+        labels={'unemployment_rate': 'Unemployment Rate', 'Automobile_Sales': 'Average Automobile Sales'},
+        title="Effect of unemployment rate on vehicle type and sales"
         ))
 
 
@@ -146,7 +152,10 @@ def update_output_container(report_type, input_year):
         yas = data.groupby('Year')['Automobile_Sales'].mean().reset_index()
         Y_chart1 = dcc.Graph(figure=px.line(yas, 
                                             x='Year', 
-                                            y='Automobile_Sales'))
+                                            y='Automobile_Sales',
+                                            labels={"Automobile_Sales":"Automobile Sales"},
+                                            title="Automobile Sales from 1980-2023"
+                                            ))
             
 # Plot 2 Total Monthly Automobile sales using line chart.
         # grouping data for plotting.
@@ -154,7 +163,9 @@ def update_output_container(report_type, input_year):
         mas=yearly_data.groupby('Month')['Automobile_Sales'].mean().reset_index()
         Y_chart2 = dcc.Graph(figure=px.line(mas,
             x='Month',
-            y='Automobile_Sales'))
+            y='Automobile_Sales',
+            labels={"Automobile_Sales":"Automobile Sales"},
+            title=f"Total Monthly Automobile sales during {input_year}"))
 
   # Plot bar chart for average number of vehicles sold during the given year
          # grouping data for plotting.
@@ -162,7 +173,10 @@ def update_output_container(report_type, input_year):
         avr_vdata = yearly_data.groupby('Year')['Automobile_Sales'].mean().reset_index()
         Y_chart3 = dcc.Graph(figure=px.bar(avr_vdata,
             x='Year',
-            y='Automobile_Sales'))
+            y='Automobile_Sales',
+            labels={"Automobile_Sales":"Automobile Sales"},
+            title=f"Automobile Sales during the year of {input_year}"
+            ))
 
     # Total Advertisement Expenditure for each vehicle using pie chart
          # grouping data for plotting.
@@ -171,7 +185,8 @@ def update_output_container(report_type, input_year):
         Y_chart4 = dcc.Graph(figure = px.pie(exp_data,
             values='Advertising_Expenditure',
             names='Vehicle_Type',
-            title='Total Advertisment Expenditure for Each Vehicle'))
+            labels={"Automobile_Sales":"Automobile Sales", "Advertising_Expenditure":"Advertising Expenditure"},
+            title=f'Total Advertisment Expenditure for Each Vehicle during {input_year}'))
 
 #TASK 2.6: Returning the graphs for displaying Yearly data
         return [
